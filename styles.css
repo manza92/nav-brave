@@ -1,0 +1,68 @@
+  /* Google logo */
+  .logo {
+      font-size: 50px;
+      font-weight: bold;
+      color: #4285F4;
+      text-shadow: 1px 1px #000000;
+      margin: 50px auto;
+      text-align: center;
+  }
+
+  /* Search bar */
+  .search-bar {
+      width: 500px;
+      height: 50px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #4285F4;
+      border-radius: 25px;
+      overflow: hidden;
+  }
+
+  .search-bar input[type="text"] {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      outline: none;
+  }
+
+  .search-bar button {
+      width: 50px;
+      height: 50px;
+      background-color: #4285F4;
+      color: #FFFFFF;
+      font-size: 20px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  }
+
+  /* Search suggestions */
+  .suggestions {
+      width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px;
+      color: #4285F4;
+      margin-top: 20px;
+  }
+
+  .suggestions ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .suggestions li {
+      display: inline-block;
+      margin: 0 10px;
+      cursor: pointer;
+  }
+
+  .suggestions li:hover {
+      text-decoration: underline;
+  }
